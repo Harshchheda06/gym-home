@@ -320,3 +320,21 @@ footer {
     height: 50%    ; /* Added this line to make the image fill the container */
     /* object-fit: cover; Added this line to maintain aspect ratio and cover the container */
 }
+
+
+@media(max-width:600px)
+{
+   /* *{
+      font-size: 1vh;
+
+   } */
+   .wel{
+      font-size: 4vh;
+      margin: 0 0 0 1em;
+      }
+
+      #logo{
+         height: 10vw;
+
+      }
+    }

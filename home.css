@@ -339,5 +339,19 @@ footer {
 
     }
       
+    .carousel{
+        height: 20vh;
+        width: 20vw;
+    }
+
+    .container{
+        height: 20vh;
+        width: 20vw;
+    }
+
+    /* .image{
+        height: 20vh;
+        width: 10vw;
+    } */
 
 }

@@ -174,13 +174,15 @@ body {
 }
 
 #logo {
-    margin-left: 0;
     top: 20px;
+    display: inline-block;
     animation-name: logo;
     animation-duration: 2.5s;
     animation-delay: 1s;
+    filter:invert(100%);
+    opacity: 0.9;
+    border-radius: 35%;
     animation-iteration-count: infinite;
-    border-radius: 50%;
 }
 
 @keyframes logo {
@@ -221,14 +223,13 @@ body {
 
 
 .wel {
-    text-shadow: 2px 2px 5px rgb(164, 151, 227), 2px 2px 5px rgb(145, 125, 243);
-    display: inline-block;
-    top: 0px;
-    color: #060606;
-    text-decoration: wavy;
+
+    text-shadow: 2px 2px 5px rgb(143, 124, 236),2px 2px 5px rgb(145, 125, 243);
+    margin: 0px 0px 0px 100px;
     text-decoration-color: antiquewhite;
     font-size: 70px;
-    margin: 0px 0px 20px 100px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .list {
@@ -329,13 +330,14 @@ footer {
 
    } */
    .wel{
-      font-size: 5vh;
-      margin: 0 0 0 2em;
-      top: 0px;
-      }
-
-      #logo{
-         height: 10vw;
-
-      }
+    font-size: 4vh;
+    margin: 0 0 0 1em;
     }
+
+    #logo{
+       height: 10vw;
+
+    }
+      
+
+}

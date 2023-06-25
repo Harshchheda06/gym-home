@@ -120,6 +120,7 @@ body {
     padding: 10px;
     overflow: hidden;
     position: sticky;
+    width: 100%;
     top: 0px;
     background-color: rgb(123, 114, 165);
 }
@@ -340,18 +341,27 @@ footer {
     }
       
     .carousel{
-        height: 20vh;
-        width: 20vw;
+        height: 10vh;
+        width: 10vw;
     }
 
     .container{
-        height: 20vh;
-        width: 20vw;
+        height: 10vh;
+        width: 10vw;
+        margin-left: 2px;
     }
 
     /* .image{
         height: 20vh;
         width: 10vw;
     } */
+
+    .nav>li>a{
+        margin-top: 5px;
+    }
+
+    .nav li{
+        margin-left: 0px;
+    }
 
 }

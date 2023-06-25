@@ -228,7 +228,7 @@ body {
     text-decoration: wavy;
     text-decoration-color: antiquewhite;
     font-size: 70px;
-    margin: 0px 0px 20px 70px;
+    margin: 0px 0px 20px 100px;
 }
 
 .list {
@@ -330,7 +330,7 @@ footer {
    } */
    .wel{
       font-size: 5vh;
-      margin: 0 0 0 1em;
+      margin: 0 0 0 2em;
       top: 0px;
       }
 
